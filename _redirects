@@ -1,0 +1,6 @@
+# 非WWWからWWWへ（HTTPS）
+https://uniseed.life/* https://www.uniseed.life/:splat 301!
+
+# さらに、HTTPからHTTPSかつWWWへ
+http://uniseed.life/* https://www.uniseed.life/:splat 301!
+http://www.uniseed.life/* https://www.uniseed.life/:splat 301!
